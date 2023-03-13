@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
+import javax.swing.JButton;
 
 public class Interface {
 
@@ -43,7 +44,7 @@ public class Interface {
 		
 		JTextArea textArea = new JTextArea();
 		textArea.setBorder(new NumberedBorder());
-		textArea.setBounds(196, 36, 342, 309);
+		textArea.setBounds(175, 21, 342, 309);
 		frame.getContentPane().add(textArea);
 	}
 }
